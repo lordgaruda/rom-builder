@@ -17,7 +17,7 @@ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
 chmod a+rx ~/.bin/repo
 
 # Sync Source
-repo init -u repo init -u https://github.com/PixelOS-AOSP/manifest.git -b thirteen --depth=1
+repo init -u https://github.com/PixelOS-AOSP/manifest.git -b thirteen --depth=1
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 
 # Sync Trees
