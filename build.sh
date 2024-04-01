@@ -5,7 +5,7 @@ rm -rf /cache/*
 BASE_DIR="$(pwd)"
 SOURCEDIR="${BASE_DIR}/awaken"
 
-git config --global user.email "falgunpatel.fv@gmail.com" && git config --global user.name "falgunv"
+git config --global user.email "falgunpatel.fv@gmail.com" && git config --global user.name "lordgaruda"
 df -h
 mkdir -p "${SOURCEDIR}"
 cd "${SOURCEDIR}"
